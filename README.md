@@ -6,8 +6,8 @@ import socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Get local machine name and bind to a port
-host = '127.0.0.1'  # localhost
-port = 12345
+host = '8.8.8.8'  # localhost
+port = 5685
 server_socket.bind((host, port))
 
 # Listen for incoming connections
